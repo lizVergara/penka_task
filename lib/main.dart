@@ -35,12 +35,12 @@ class MyApp extends StatelessWidget {
           ),
           actions: <Widget>[
             IconButton(
-              icon: Image.asset(APPImage.logo),
+              icon: Image.asset('assets/images/logo_penka'),
               onPressed: () {},
             ),
           ],
           elevation: 5,
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.white,
         ),
         body: HomeScreen(),
       ),
