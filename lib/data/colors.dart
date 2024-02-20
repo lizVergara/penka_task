@@ -3,35 +3,6 @@ import 'package:get/get.dart';
 
 class APPColor {
   static const Color mainBackground = Color(0xFFF8F8F8);
-  static const Color blueFacebook = Color(0xFF3C5A98);
-
-  static const MaterialColor green = MaterialColor(
-    0xFF06B130,
-    <int, Color>{
-      50: Color(0x2206B130),
-      100: Color(0xFF59CA8E),
-      200: Color(0xFF88E0B1),
-      300: Color(0xFF88E0B1),
-      400: Color(0xDD04A82C),
-      500: Color(0xFF06B130),
-      600: Color(0xAA004a12),
-      800: Color(0xFF007037),
-    },
-  );
-
-  static const MaterialColor market = MaterialColor(
-    0xFF06B130,
-    <int, Color>{
-      50: Color(0x2206B130),
-      100: Color(0xFF59CA8E),
-      200: Color(0xFF88E0B1),
-      300: Color(0xFF88E0B1),
-      400: Color(0xDD04A82C),
-      500: Color(0xFF06B130),
-      600: Color(0xAA004a12),
-      800: Color(0xFF007037),
-    },
-  );
 
   static const MaterialColor text = MaterialColor(
     0xFF393E41,
@@ -77,20 +48,20 @@ class APPColor {
     },
   );
 
-  static ColorScheme scheme = ColorScheme(
-      primary: green,
-      // primaryVariant: green,
-      secondary: green,
-      // secondaryVariant: grey,
-      surface: grey,
-      background: grey,
-      error: red,
-      onPrimary: grey,
-      onSecondary: grey,
-      onSurface: grey,
-      onBackground: grey,
-      onError: red,
-      brightness: Brightness.light);
+  // static ColorScheme scheme = ColorScheme(
+  //     primary: green,
+  //     // primaryVariant: green,
+  //     secondary: green,
+  //     // secondaryVariant: grey,
+  //     surface: grey,
+  //     background: grey,
+  //     error: red,
+  //     onPrimary: grey,
+  //     onSecondary: grey,
+  //     onSurface: grey,
+  //     onBackground: grey,
+  //     onError: red,
+  //     brightness: Brightness.light);
 
   static List<BoxShadow> shadow = <BoxShadow>[
     BoxShadow(
@@ -132,25 +103,5 @@ class APPColor {
     },
   );
 
-  static const MaterialColor primeFooterTitle = MaterialColor(
-    0xFF1BC55C,
-    <int, Color>{
-      500: Color(0xFF1BC55C),
-    },
-  );
-
-  static const MaterialColor primeButton1 = MaterialColor(
-    0x4D04A82C,
-    <int, Color>{
-      50: Color(0x4D04A82C),
-      100: Color(0x1A04A82C),
-    },
-  );
-
-  static const MaterialColor primeButton2 = MaterialColor(
-    0xFFE1AA06,
-    <int, Color>{
-      500: Color(0xFFE1AA06),
-    },
-  );
+  static const Color penka = Color(0xffFCA42C);
 }

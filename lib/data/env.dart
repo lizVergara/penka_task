@@ -5,39 +5,18 @@ class Env {
   /*            DECLARATION OF CONSTANTS         */
   /* ******************************************* */
 
-  static const int EMPRESA_ID = 2;
-  static const int TOKEN_LENGTH = 4;
-  static const int DEFAULT_WAIT_TIME = 15;
-  static const int DEFAULT_BIRTH_YEAR = 1960;
-  static const int MIN_PASSWORD_LENGTH = 8;
-  static const int CANTIDAD_MAX_PRODUCTO = 10;
-  static const int PLACES_MIN_SEARCH_LENGTH = 4;
-  static const String CANAL_PAGO = "ESAY";
-  static const String TERMINAL_PAGO = "APP000270";
-  // static const String GOOGLE_API_KEY =
-  //     "AIzaSyDraG8vDAepIWjdrOmAOay78IuaY2DrRsc";
-  // static const String GOOGLE_MAPS_HOST = "maps.googleapis.com";
-  // static const String GOOGLE_PLACES_PATH =
-  //     "/maps/api/place/findplacefromtext/json";
-  // static const String GOOGLE_GEOCODING_PATH = "/maps/api/geocode/json";
-  // static const String GOOGLE_STATICMAP_PATH = "/maps/api/staticmap";
-  // static const String GOOGLE_PLACE_PREDICTIONS_PATH =
-  //     "/maps/api/place/autocomplete/json";
-  // static const String GOOGLE_PLACE_DETAILS_PATH =
-  //     "/maps/api/place/details/json";
-  // static const String DYNAMIC_LINK_URL = "https://supereasyecuador.page.link";
-  // static const String URL_PLAY_STORE =
-  //     "http://play.google.com/store/apps/details?id=ec.supereasy.app";
-  // static const String URL_APPLE_STORE =
-  //     "itms-apps://itunes.apple.com/app/apple-store/id375380948?mt=8";
-  // static const String URL_INSTAGRAM = 'https://www.instagram.com/supereasy.ec/';
-  // static const String FACEBOOK_APPID = '339456231193964';
+  static const String PENKA_KEY =
+      "VP9ZPrjzalgHnGLa5Ko6DPJQlUGlcBKiE1up56iLGp08a4YYwg";
+  static const String TEMPLATE_TYPES =
+      'https://api-stg.penka.io/template/available';
+  static const String PUBLIC = 'https://api-stg.penka.io/penka/public';
+  static const String KEY = 'penka-api-key';
+  static const String FIELD =
+      'https://st3.depositphotos.com/9880800/15061/i/450/depositphotos_150617900-stock-photo-soccer-ball-on-grass.jpg';
 
   /* ******************************************* */
   /*        END OF DECLARATION OF CONSTANTS      */
   /* ******************************************* */
-
-  //*
 
   /* ******************************************* */
   /*                    GETTERS                  */

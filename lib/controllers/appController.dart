@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:penka_task/controllers/homeController.dart';
 
 class AppController extends GetxController {
   /* ******************************************* */
@@ -9,6 +10,8 @@ class AppController extends GetxController {
   late Map<String, String?> lastParamsDetalleMarket;
   Map<String, String>? lastParamsPasilloMarket;
   RxBool _carritoPrincipal = false.obs;
+  RxString id = ''.obs;
+  RxInt numberPenka = 0.obs;
 
   // late GetStorage box;
   MenuController? _menu;
@@ -17,7 +20,7 @@ class AppController extends GetxController {
   // AppBarController? _appBar;
   // PasilloArguments? lastPasilloArguments;
   // late BuscadorArguments lastBuscadorArguments;
-  // UsuarioController? _user;
+  late HomeController _home;
   // CarritoController? _cart;
   // FavoritosController? _favorite;
   // DireccionController? _location;
@@ -41,6 +44,8 @@ class AppController extends GetxController {
 
   @override
   void onInit() {
+    initControllers();
+
     super.onInit();
   }
 
@@ -91,9 +96,17 @@ class AppController extends GetxController {
     _menu = Get.put(MenuController(), tag: "APP", permanent: true);
   }
 
+  // void initHome() {
+  //   _menu = Get.put(MenuController(), tag: "APP", permanent: true);
+  // }
+
   // void initOrders() {
   //   _orders = Get.put(OrdersController(), tag: "APP", permanent: true);
   // }
+
+  void initControllers() {
+    _home = Get.put(HomeController());
+  }
 
   // void initAppBar() {
   //   _appBar = Get.put(AppBarController(), tag: "APP", permanent: true);
